@@ -1,0 +1,12 @@
+<script type="text/javascript" src="<?php echo base_url('/assets/js/vendor/jquery-1.12.0.min.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('/assets/js/popper.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('/assets/js/bootstrap.min.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('/assets/js/jquery.magnific-popup.min.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('/assets/js/isotope.pkgd.min.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('/assets/js/imagesloaded.pkgd.min.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('/assets/js/jquery.counterup.min.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('/assets/js/waypoints.min.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('/assets/js/ajax-mail.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('/assets/js/owl.carousel.min.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('/assets/js/plugins.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('/assets/js/main.js'); ?>"></script>
