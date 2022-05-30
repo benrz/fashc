@@ -18,8 +18,6 @@ User Dashboard:
 	* Confirm ordered products
 * Rating
 	* Give ratings to ordered products
-* Login, Register, Forgot Password
-	* Login, register, and reset users’ password through URL sent via e-mail
 
 Admin Dashboard:
 * Manage products, transactions, and users data
