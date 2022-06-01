@@ -7,17 +7,19 @@ User Dashboard:
 * Home
   * Show all products, filter products by category, search and sort products
 * Flashsale
-	* Show products currently on flashsale
+  * Show products currently on flashsale
 * Wishlist
-	* Save wished products
+  * Save wished products
 * Product Detail
-	* Show selected product details
+  * Show selected product details
 * Shopping Cart
-	* Save products to be ordered
+  * Save products to be ordered
 * Checkout
-	* Confirm ordered products
+  * Confirm ordered products
+* Order
+  * Show history of ordered products
 * Rating
-	* Give ratings to ordered products
+  * Give ratings to ordered products
 
 Admin Dashboard:
 * Manage products, transactions, and users data
