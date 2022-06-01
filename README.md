@@ -27,18 +27,18 @@ Admin Dashboard:
 
 <br>
 <p align="center">
-  <img src="docs/home.gif">
+  <img src="docs/1.gif">
 </p>
 <br>
 
 <br>
 <p align="center">
-  <img src="docs/user.gif">
+  <img src="docs/2.gif">
 </p>
 <br>
 
 <br>
 <p align="center">
-  <img src="docs/admin.gif">
+  <img src="docs/3.gif">
 </p>
 <br>
