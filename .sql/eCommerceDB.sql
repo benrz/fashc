@@ -1,7 +1,6 @@
-
-DROP SCHEMA IF EXISTS `eCommerceDB`;
-CREATE SCHEMA IF NOT EXISTS `eCommerceDB` DEFAULT CHARACTER SET latin1;
-USE `eCommerceDB`;
+-- DROP SCHEMA IF EXISTS `eCommerceDB`;
+-- CREATE SCHEMA IF NOT EXISTS `eCommerceDB` DEFAULT CHARACTER SET latin1;
+-- USE `eCommerceDB`;
 
 DROP TABLE IF EXISTS user;
 CREATE TABLE user (
@@ -85,7 +84,7 @@ CREATE TABLE DeliveryService (
   PRIMARY KEY (DeliveryServiceID)
 );
 
-INSERT INTO deliveryservice (DeliveryServiceID, DeliveryService, DeliveryFee) VALUES
+INSERT INTO DeliveryService (DeliveryServiceID, DeliveryService, DeliveryFee) VALUES
 (1, 'JNE', 10000),
 (2, 'Pos Indonesia', 15000);
 
@@ -262,7 +261,7 @@ CREATE TABLE itemDetail (
   
   PRIMARY KEY (itemDetailID),
   FOREIGN KEY (itemID) REFERENCES itemData (itemID) ON DELETE CASCADE ON UPDATE CASCADE,
-  FOREIGN KEY (itemSizeID) REFERENCES itemSize (itemSizeID) ON DELETE CASCADE ON UPDATE CASCADE,
+  FOREIGN KEY (itemSizeID) REFERENCES itemsize (itemSizeID) ON DELETE CASCADE ON UPDATE CASCADE,
   FOREIGN KEY (itemColorID) REFERENCES itemColor (itemColorID) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
@@ -343,7 +342,7 @@ CREATE TABLE receiver (
   PRIMARY KEY (ReceiverID),
   FOREIGN KEY (kotaID) REFERENCES kota (kotaID) ON DELETE CASCADE ON UPDATE CASCADE,
   FOREIGN KEY (DeliveryServiceID) REFERENCES DeliveryService (DeliveryServiceID) ON DELETE CASCADE ON UPDATE CASCADE,
-  FOREIGN KEY (paymentMethodID) REFERENCES paymentMethod (PaymentMethodID) ON DELETE CASCADE ON UPDATE CASCADE
+  FOREIGN KEY (paymentMethodID) REFERENCES paymentmethod (paymentMethodID) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 DROP TABLE IF EXISTS customerlikeditems;
