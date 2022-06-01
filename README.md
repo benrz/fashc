@@ -21,3 +21,22 @@ User Dashboard:
 
 Admin Dashboard:
 * Manage products, transactions, and users data
+
+## Demo
+<br>
+<p align="center">
+  <img src="docs/home.gif">
+</p>
+<br>
+
+<br>
+<p align="center">
+  <img src="docs/user.gif">
+</p>
+<br>
+
+<br>
+<p align="center">
+  <img src="docs/admin.gif">
+</p>
+<br>
