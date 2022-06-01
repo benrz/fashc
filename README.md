@@ -23,6 +23,8 @@ Admin Dashboard:
 * Manage products, transactions, and users data
 
 ## Demo
+* [Fashc Shop](http://fashc.000webhostapp.com/)
+
 <br>
 <p align="center">
   <img src="docs/home.gif">
