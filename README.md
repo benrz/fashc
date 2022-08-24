@@ -44,3 +44,9 @@ Admin Dashboard:
   <img src="docs/3.gif">
 </p>
 <br>
+
+## Contributors
+* Benny Richardson
+* Kevin Hendy
+* Ventryshia Andiyani
+* Wilson Philips
